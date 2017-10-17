@@ -2,30 +2,16 @@ package com.theja.book.java;
 
 public class DrumKit {
 
-    public boolean TopHat = true;
-     public boolean Snare = true;
+    public boolean topHat = true;
+    public boolean snare = true;
 
-    public void PlayTopHat(){
+    public void playTopHat() {
         System.out.println("ding ding");
     }
-    public void PlaySnare(){
+
+    public void playSnare() {
         System.out.println("bing bing");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 

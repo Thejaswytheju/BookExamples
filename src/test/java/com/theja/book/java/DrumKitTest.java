@@ -5,12 +5,12 @@ public class DrumKitTest {
     public static void main(String args[]) {
 
         DrumKit d = new DrumKit();
-        d.PlaySnare();
-        d.Snare = false;
-        d.PlayTopHat();
+        d.playSnare();
+        d.snare = false;
+        d.playTopHat();
 
-        if(d.Snare==true){
-            d.PlaySnare();
+        if(d.snare==true){
+            d.playSnare();
         }
     }
 
